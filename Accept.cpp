@@ -4,7 +4,6 @@
 
 State::State() : _size(0) {}
 
-
 State * State::Next() { return NULL; }
 
 void State::SetNext( State * state ) {}
