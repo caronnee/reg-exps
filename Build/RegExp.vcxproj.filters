@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Accept.cpp" />
+    <ClCompile Include="..\RegExp.cpp" />
+    <ClCompile Include="..\SearchEngine.cpp" />
+    <ClCompile Include="..\SearchStateArray.cpp" />
+    <ClCompile Include="..\stdafx.cpp" />
+    <ClCompile Include="..\Parser.cpp" />
+    <ClCompile Include="..\AcceptSimple.cpp">
+      <Filter>Accepts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AcceptAny.cpp">
+      <Filter>Accepts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Accept.h" />
+    <ClInclude Include="..\SearchEngine.h" />
+    <ClInclude Include="..\SearchEngineCommon.h" />
+    <ClInclude Include="..\SearchStateArray.h" />
+    <ClInclude Include="..\Parser.h" />
+    <ClInclude Include="..\AcceptSimple.h">
+      <Filter>Accepts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AcceptAny.h">
+      <Filter>Accepts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Accepts">
+      <UniqueIdentifier>{db9ca447-bb7f-4ba5-8688-4b493c2dbd74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
