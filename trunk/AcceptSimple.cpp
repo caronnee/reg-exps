@@ -30,15 +30,6 @@ bool StateSearch::Accept( char c, SearchStateArray & array )
 	return false;
 }
 
-StateAnyChar::StateAnyChar(){}
-
-bool StateAnyChar::Accept(char ch, SearchStateArray & cands)
-{
-	return true;
-}
-
-StateAnyChar::~StateAnyChar()	{}
-
 StateInterval::StateInterval( const char * pattern )
 {
 	_intervals.Clear();

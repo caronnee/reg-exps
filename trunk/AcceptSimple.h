@@ -47,14 +47,6 @@ public:
 	void Validate(char * pattern);
 };
 
-class StateAnyChar:public StateSearch
-{
-public:
-	StateAnyChar();
-	virtual bool Accept( char c, SearchStateArray& candidates );
-	virtual ~StateAnyChar();
-};
-
 class StateNotInterval : public StateInterval
 {
 public:

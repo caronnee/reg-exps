@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "parser.h"
 #include "AcceptSimple.h"
+#include "AcceptAny.h"
 #include <vector>
 
 #define MAKE_PARSE_VALUE(name, ch, prio, len) { Special##name, ch, prio, len, NULL },
